@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+    {% block content %}
+        {% if session['logged_in'] %}
+            <h1>Hola {{ nombre }}</h1>
+            <a href="/logout">Salir</a>
+        {% else %}
+            <div class="panel panel-info">
+                <div class="panel-heading">Información</div>
+                <div class="panel-body">No logiado</div>
+            </div>
+            <div class="btn-group btn-group-justified">
+                <a href="/login" class="btn btn-default">Login</a>
+                <a href="/registro" class="btn btn-success">Registro</a>
+            </div>
+        {% endif %}
+    {% endblock %}
