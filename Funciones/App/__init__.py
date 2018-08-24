@@ -13,4 +13,4 @@ if __name__ == "__main__": #__name__ es una palabra reservada.
     n = input("Nombre: ")
     imprime_nombre(n)
     c = suma(1,5)
-    print("La suma fue "+ str(c))
+    print("La suma fue de "+ str(c))

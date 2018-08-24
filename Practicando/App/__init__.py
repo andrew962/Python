@@ -9,5 +9,5 @@ def num_positivo(num):
 
 
 if __name__ == "__main__":
-  n=int(input("Dijite un numero: "))
+  n=int(input("Dijite un(1) numero: "))
   num_positivo(n)

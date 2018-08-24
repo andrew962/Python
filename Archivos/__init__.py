@@ -3,7 +3,7 @@ while sal:
     nombre = input("Nombre: ")
     notafinal = int(input("Nota final: "))
     if 91 <= notafinal <= 100:
-        print(nombre+ ", sacaste una A " + str(notafinal) + "!")
+        print(nombre+ ", sacaste una A " + str(notafinal) + ":D")
     elif notafinal >=81:
         print(nombre+ ", sacaste una B "+ str(notafinal) + "!")
     elif notafinal >=71:

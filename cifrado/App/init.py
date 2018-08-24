@@ -4,7 +4,7 @@ f = open('yoyo.txt','w')
 pala = input('Palabra: ')
 
 for x in pala:
-    #A
+    #a
     if x == 'a':
         x = 'p'
     #B

@@ -1,5 +1,5 @@
 def impuesto(x):
-    return  x*1.07
+    return  x*1.077
 
 def isr(x):
     return x*1.15

@@ -1,3 +1,4 @@
+#quiz numero 1
 print("Veremos la temperatura")
 temperatura = int(input("Ponga la temperatura: "))
 tem = (((temperatura-32)*5)/9)
